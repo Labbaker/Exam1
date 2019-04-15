@@ -1,0 +1,16 @@
+#all {
+  border: dashed 5px green;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#all > div {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+h1, h2, div div {
+  border: black 2px solid;
+  padding: 0px;
+}
